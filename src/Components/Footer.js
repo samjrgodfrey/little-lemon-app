@@ -8,7 +8,7 @@ import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 export default function Footer() {
   return (
     <footer>
-      <img src={icon} alt="Little Lemon icon" />
+      <img src={icon} alt="Little Lemon icon" width={38} />
       <ul>
         <li>
           <a href="#">Home</a>
@@ -26,28 +26,53 @@ export default function Footer() {
           <a href="#">Reservations</a>
         </li>
       </ul>
-      <a href="https://facebook.com" rel="noopener noreferrer" title="Facebook">
-        <FontAwesomeIcon icon={faFacebook} size="2x" />
-      </a>
-      <a
-        href="https://instagram.com"
-        rel="noopener noreferrer"
-        title="Instagram"
-      >
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
-      </a>
-      <a
-        href="mailto:hello@littlelemonchicago.com"
-        rel="noopener noreferrer"
-        title="Email"
-      >
-        <FontAwesomeIcon icon={faEnvelope} size="2x" />
-      </a>
-      <a href="tel:312-555-9876" rel="noopener noreferrer" title="Phone">
-        <FontAwesomeIcon icon={faPhone} size="2x" />
-      </a>
-      <p>Little Lemon 1234 S. Mediterranean Ave. Chicago, IL 60615</p>
-      <p>Contact: (312) 555-9876 hello@littlelemonchicago.com</p>
+      <ul>
+        <li className="social-icon">
+          <a
+            href="https://facebook.com"
+            rel="noopener noreferrer"
+            title="Facebook"
+          >
+            <FontAwesomeIcon icon={faFacebook} size="xl" />
+          </a>
+        </li>
+        <li className="social-icon">
+          <a
+            href="https://instagram.com"
+            rel="noopener noreferrer"
+            title="Instagram"
+          >
+            <FontAwesomeIcon icon={faInstagram} size="xl" />
+          </a>
+        </li>
+        <li className="social-icon">
+          <a
+            href="mailto:hello@littlelemonchicago.com"
+            rel="noopener noreferrer"
+            title="Email"
+          >
+            <FontAwesomeIcon icon={faEnvelope} size="xl" />
+          </a>
+        </li>
+        <li className="social-icon">
+          <a href="tel:312-555-9876" rel="noopener noreferrer" title="Phone">
+            <FontAwesomeIcon icon={faPhone} size="xl" />
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <p>
+            Little Lemon <br /> 1234 S. Mediterranean Ave. <br /> Chicago, IL
+            60615
+          </p>
+        </li>
+        <li>
+          <p>
+            Contact: <br /> (312) 555-9876 <br /> hello@littlelemonchicago.com
+          </p>
+        </li>
+      </ul>
     </footer>
   );
 }
