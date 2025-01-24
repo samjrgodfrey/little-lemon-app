@@ -56,7 +56,7 @@ export default function Footer() {
         </li>
         <li className="social-icon">
           <a href="tel:312-555-9876" rel="noopener noreferrer" title="Phone">
-            <FontAwesomeIcon icon={faPhone} size="xl" />
+            <FontAwesomeIcon icon={faPhone} size="lg" />
           </a>
         </li>
       </ul>
