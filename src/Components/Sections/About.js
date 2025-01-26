@@ -1,5 +1,5 @@
 import React from "react";
-import chefs from "../img/adrian-mario.png";
+import chefs from "../../img/adrian-mario.png";
 
 export default function About() {
   return (

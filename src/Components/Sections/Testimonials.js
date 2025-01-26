@@ -1,8 +1,8 @@
 import React from "react";
 import TestimonialCard from "./TestimonialCard";
-import user1 from "../img/user1.png";
-import user2 from "../img/user2.png";
-import user3 from "../img/user3.png";
+import user1 from "../../img/user1.png";
+import user2 from "../../img/user2.png";
+import user3 from "../../img/user3.png";
 
 export default function Testimonials() {
   return (

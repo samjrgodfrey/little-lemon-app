@@ -1,8 +1,8 @@
 import React from "react";
 import SpecialsCard from "./SpecialsCard";
-import bruschetta from "../img/bruschetta.png";
-import greekSalad from "../img/greek-salad.png";
-import lemonDessert from "../img/lemon-dessert.png";
+import bruschetta from "../../img/bruschetta.png";
+import greekSalad from "../../img/greek-salad.png";
+import lemonDessert from "../../img/lemon-dessert.png";
 
 export default function Specials() {
   return (

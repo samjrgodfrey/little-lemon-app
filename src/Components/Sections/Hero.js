@@ -1,5 +1,6 @@
 import React from "react";
-import heroImg from "../img/hero-img.png";
+import heroImg from "../../img/hero-img.png";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -22,9 +23,11 @@ export default function Hero() {
             for delicious, wholesome comfort food. Come savor the taste of
             sunshine, one bite at a time!
           </p>
-          <a href="#" className="hero-btn">
-            Reserve a table
-          </a>
+          <Link to="/reservations">
+            <a href="#" className="hero-btn">
+              Reserve a table
+            </a>
+          </Link>
         </div>
       </div>
     </div>

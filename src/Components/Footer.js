@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { Link } from "react-router-dom";
 import icon from "../img/lemon-icon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -11,19 +12,29 @@ export default function Footer() {
       <img src={icon} alt="Little Lemon icon" width={38} />
       <ul>
         <li>
-          <a href="#">Home</a>
+          <Link to="/">
+            <a href="#">Home</a>
+          </Link>
         </li>
         <li>
-          <a href="#">About</a>
+          <Link to="/about">
+            <a href="#">About</a>
+          </Link>
         </li>
         <li>
-          <a href="#">Menu</a>
+          <Link to="/menu">
+            <a href="#">Menu</a>
+          </Link>
         </li>
         <li>
-          <a href="#">Order</a>
+          <Link to="/menu">
+            <a href="#">Order</a>
+          </Link>
         </li>
         <li>
-          <a href="#">Reservations</a>
+          <Link to="/reservations">
+            <a href="#">Reservations</a>
+          </Link>
         </li>
       </ul>
       <ul>
